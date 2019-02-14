@@ -40,8 +40,9 @@ class DetailController extends Controller
         if (empty($data)){
             throw new NotFoundHttpException();
         }
-              
-        return $data;
+        $data = json_encode($data);     
+        
+        return response($data, 200);
     }
 
     

@@ -36,7 +36,9 @@ class SearchController extends Controller
             throw new NotFoundHttpException();
         }
 
-        return  $vehicles;
+        $data = json_encode($vehicles);     
+        
+        return response($data, 200);
     }
 
     public function getVehiclesDetails($link)
