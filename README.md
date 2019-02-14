@@ -5,7 +5,7 @@ API desenvolvida em Laravel para a consulta através de crawler do site seminovo
 
 ### Installing
 
-``
+
 git clone the repo and run composer
 ```
 ### Running the tests
@@ -17,3 +17,5 @@ A API é composta de 2 endpoints que estão sendo exibidos abaixo
 
 #Exemplo de busca por automovel especifico 
 /api/detail/chevrolet/cobalt/2016-2017/2435017/
+
+As respostas para o teste estão na pasta Teste, bem como os seus arquivos PHP
