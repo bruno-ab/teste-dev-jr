@@ -19,9 +19,6 @@ use Illuminate\Http\Request;
 Route::get('/search',
 'SearchController@search');
 
-
 // -Detalhes do veículo, retornando detalhadamente todos os dados de um veículo (Ano, quilometragem, tipo de combustível, cor, acessórios e observações) 
 // Example: /detail/chevrolet/vectra-sedan/2003-2003/2470937
 Route::get('/detail/{manufacturer}/{model}/{year}/{id}', 'DetailController@detail');
-
-

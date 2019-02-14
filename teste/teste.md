@@ -8,19 +8,26 @@ Questões
 
 1. Escreva uma função que receba como parâmetros os coeficientes de uma equação 
 de segundo grau e retorne suas raízes. 
+arquivo equacao.php
 
 2. Em Javascript, qual a diferença entre == e ===? 
+A diferença está na tipagem,quando possui === ambos os valores alem de serem iguais devem pertencer ao mesmo tipo.Exemplo
+de numeros 1 e "1" a afirmacao 1 == "1" é verdadeira, mas 1 === "1" é falsa.
 
 3. Em PHP, escreva as classes necessárias para representar um estacionamento. 
+arquivo Estacionamento.php
 
 4. Qual o resultado do trecho de código a seguir: 
 <?php class W { 
 const XX = 12 + 30; } echo W::XX; 
+A resposta para a vida o Universo e tudo mais.
 
 5. Em NodeJS existem threads? 
+Nodejs é em single thread , porém ele executa diversas tarefas baseadas em eventos que retornam o callback de cada função.
 
 6. Em sudoku, o objetivo é preencher uma grade 9x9 subdivida em quadrantes 3x3 
 com números de 1 a 9 de tal forma que não hajam números repetidos em uma mesma coluna, linha ou quadrante. Escreva um procedimento que gere uma matriz 9x9 válida como resultado de sudoku considerando uma grade vazia.
+arquivo sudoku.php
 
 7. Faça uma API RESTful capaz de pesquisar automóveis no site 
 https://www.seminovosbh.com.br. 
